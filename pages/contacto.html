@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos - cuadros</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- link de tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><span>Bienvenidos</span> a Deco Paint</h1>
+       <img src="../img/e12e.png" alt=" logo de pagina" width="250px">
+         <!-- menu de navegacion -->
+         <nav class="navegacion">
+            <ul class="menu">
+             <li>
+                 <a href="../index.html"> Home </a>
+             </li>
+              <li>
+                 <a class="nos" href="nosotros.html"> Nosotros </a>
+             </li>
+              <li>
+                 <a class="pro" href="productos.html"> Productos</a>
+             </li>
+              <li>
+                 <a class="tiend" href="tiendas.html"> Tienda</a>
+                
+              </li>
+              <li>
+                 <a class="contac" href="contacto.html"> Contactos</a>  
+             </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- crear nuestro formulario -->
+    <form>
+      <fieldset>
+         <legend>Formulario</legend>
+          <div>
+            <label for="nombre"> completa tu nombre </label>
+            <input type="text" name="nombre" required placeholder="completa tu nombre y apellido">
+          </div>
+          <br>
+          <div>
+            <label for="email"> completa tu email </label>
+            <input type="email" required placeholder="completa tu email">
+           
+          </div>
+          <br>
+          <div>
+            <label for="pais">
+                selecciona tu pais
+            </label>
+            <select name="pais" id="">
+                <option value="argentina">argentina</option>
+                <option value="brasil">brasil</option>
+                <option value="chile">chile</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label for="sexo"> Genero </label>
+            <br>
+            <input type="radio" name="sexo" value="hombre">hombre <br>
+            <input type="radio"name="sexo" value="mujer">mujer <br>
+            <input type="radio"name="sexo" value="no binario">no binario <br>
+          </div>
+
+          <br>
+
+          <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="resetear">
+          </div>   
+      </fieldset>
+    </form>
+    </main>
+    <footer>
+      <p>todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
