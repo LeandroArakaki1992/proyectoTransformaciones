@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -182,12 +183,14 @@ footer{
 
 .logo {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
     color: rgb(2, 2, 2);
     background-image: linear-gradient(to left, rgb(0, 217, 255) , rgb(255, 0, 234));
     padding: 30px;
-    margin: 40px;
+    height: 60px;
+    width: 60px;
+    margin: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20%;
     animation: animacion 2s linear infinite;
@@ -196,21 +199,14 @@ footer{
     0% {
       box-shadow: 0 0 0 0 rgba(29, 171, 209, .6),  0 0 0 0 rgba(29, 171, 209, .6);
     }
-  
     30% {
       box-shadow: 0 0 0 100px rgba(29, 171, 209, 0), 0 0 0 0 rgba(29, 171, 209, .6);
     }
-  
     65% {
       box-shadow: 0 0 0 100px rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);
     }
-  
     100% {
       box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);
     }
-  
     }
 
-    .menu:hover{
-        transform: scale(1.1);
-    }
